@@ -1,0 +1,24 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #white;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8em;
+    padding-left: 40px;
+    width: 40%;
+    margin: 10vh 10vw;  
+  }
+
+h2 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8em;
+    width: 40%;
+    margin: 10vh 10vw;
+  }
