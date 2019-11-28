@@ -13,14 +13,14 @@ body {
     margin: 0;
 }
 
-h1, h2 {
+h1 {
     text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8em;
   }
 
-h1 {
-      font-size: 8em;
-}
-
 h2 {
-  font-size 2.5em;
-}
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8em;
+  }
