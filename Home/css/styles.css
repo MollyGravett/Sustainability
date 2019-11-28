@@ -2,7 +2,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
+    color: red;
     background-color: #white;
 }
 
@@ -10,9 +10,10 @@ h1 {
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 8em;
+    color: pink;
     padding-left: 40px;
     width: 40%;
-    margin: 10vh 10vw;  
+    margin: 10vh 10vw;
   }
 
 h2 {
