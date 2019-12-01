@@ -4,3 +4,9 @@ body {
   font-family: Arial;
   margin: 0px;
 }
+
+.navbar {
+  width: 100%;
+  background-color: #0fa33b;
+  overflow: auto;
+}
