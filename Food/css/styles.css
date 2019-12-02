@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(191, 247, 188);
+  color: rgb(15,56,17);
+  font-family: Arial;
+  margin: 0px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #0fa33b;
+  overflow: auto;
+}
