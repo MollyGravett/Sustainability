@@ -108,8 +108,10 @@ h2 {
   clear: both;
 }
 
-.contact_form {
-
+.pics img{
+  height: 100px;
+  width: 100px;
+  border-radius: : 10px;
 }
 
 .hvrbox,
@@ -124,7 +126,7 @@ h2 {
 	height: auto;
 }
 .hvrbox img {
-	max-width: 100%;
+	width: 200px;
 }
 .hvrbox .hvrbox-layer_bottom {
 	display: block;
