@@ -1,25 +1,109 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    line-height: 1.42857143;
-    color: red;
+    color: black;
     background-color: #white;
 }
 
 h1 {
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 8em;
-    color: pink;
-    padding-left: 40px;
-    width: 40%;
-    margin: 10vh 10vw;
+    font-size: 30px;
+    color: green;
+    padding-left: 10px;
+    margin: 4vh 4vw;
+    width: 90%;
   }
 
 h2 {
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 8em;
+    font-size: 16px;
     width: 40%;
     margin: 10vh 10vw;
+    width: 30%;
   }
+
+  .navbar {
+    width: 100%;
+    background-color: #0fa33b;
+    overflow: auto;
+  }
+
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #grey;
+  }
+
+  /* Current/active navbar link */
+  .active {
+    background-color: ##40d42c;
+  }
+
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  } 
+
+.travel_intro {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 5vh 5vw;
+  width: auto;
+}
+
+.travel_video {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 10vh 10vw;
+  width: 580px;
+  height: 360px;
+
+  position: relative;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  margin: auto;
+}
+
+.travel_links {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 10vh 5vw;
+  width: auto;
+}
+
+.travel_pledge {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 10vh 5vw;
+  width: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
