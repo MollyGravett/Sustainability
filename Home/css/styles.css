@@ -109,7 +109,7 @@ h2 {
 }
 
 .contact_form {
-  
+
 }
 
 .hvrbox,
@@ -173,4 +173,8 @@ h2 {
 }
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
+}
+
+.form {
+  align-items: center;
 }
