@@ -109,9 +109,10 @@ h2 {
 }
 
 .pics img{
-  height: 100px;
-  width: 100px;
-  border-radius: : 10px;
+  border-radius: 50px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
 }
 
 .hvrbox,
@@ -126,7 +127,10 @@ h2 {
 	height: auto;
 }
 .hvrbox img {
-	width: 200px;
+  border-radius: 50px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
 }
 .hvrbox .hvrbox-layer_bottom {
 	display: block;
