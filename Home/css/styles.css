@@ -96,9 +96,10 @@ h2 {
   width: auto;
 }
 
-.column {
-  float: left;
-  width: 50%;
+.row {
+  content: "";
+ clear: both;
+ display: table;
 }
 
 /* Clear floats after the columns */
