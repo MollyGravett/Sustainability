@@ -96,11 +96,7 @@ h2 {
   width: auto;
 }
 
-.row {
-  content: "";
- clear: both;
- display: table;
-}
+
 
 /* Clear floats after the columns */
 .row:after {
