@@ -24,6 +24,55 @@ h2 {
     width: 30%;
   }
 
+/* HOMEpage styles */
+
+div.row {
+  text-align:center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+a span.middle {
+  border-radius: 50%;
+  width: 37%;
+  display: none;
+  position: absolute;
+  left: 31.5%;
+  top: 0;
+  bottom: 0;
+  background: rgb(62, 151, 240);
+  color: #ddd;
+}
+
+a span.tnb {
+  border-radius: 50%;
+  width: 28%;
+  display: none;
+  position: absolute;
+  left: 36%;
+  top: 0;
+  bottom: 0;
+  background: rgb(62, 151, 240);
+  color: #ddd;
+}
+
+a:hover span {
+  display:block ;
+}
+
+p.footer {
+  text-align: center;
+}
+
+p.tagline {
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+
+/*Travel styles*/
+
 .travel_intro {
   text-align: justify;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -62,13 +111,13 @@ h2 {
   width: auto;
 }
 
-.column {
+.column_travel {
   float: left;
   width: 50%;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row_travel:after {
   content: "";
   display: table;
   clear: both;
