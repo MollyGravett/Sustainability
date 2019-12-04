@@ -1,0 +1,324 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #white;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: green;
+    padding-left: 10px;
+    margin: 4vh 4vw;
+    width: 90%;
+  }
+
+h2 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 40%;
+    margin: 10vh 10vw;
+    width: 30%;
+  }
+
+/* HOMEpage styles */
+
+div.row {
+  text-align:center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+a span.middle {
+  border-radius: 50%;
+  width: 37%;
+  display: none;
+  position: absolute;
+  left: 31.5%;
+  top: 0;
+  bottom: 0;
+  background: rgb(62, 151, 240);
+}
+
+a span.tnb {
+  border-radius: 50%;
+  width: 28.5%;
+  display: none;
+  position: absolute;
+  left: 35.75%;
+  top: 0;
+  bottom: 0;
+  background: rgb(62, 151, 240);
+}
+
+a span.globe {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  display: none;
+  color: red;
+}
+
+a:hover span {
+  display:block ;
+}
+
+p.position_text{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+p.saveme {
+  font-size: 30px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+p.footer {
+  text-align: center;
+  font-size: 20px;
+}
+
+p.tagline {
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  color: green;
+}
+
+/*navbar*/
+
+.navbar {
+  width: 100%;
+  background-color: #0fa33b;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #grey;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: ##40d42c;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/*Travel styles*/
+
+.travel_intro {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 5vh 5vw;
+  width: auto;
+}
+
+.travel_video {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 10vh 10vw;
+  width: 580px;
+  height: 360px;
+
+  position: relative;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  margin: auto;
+}
+
+.travel_links {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 10vh 5vw;
+  width: auto;
+}
+
+.travel_pledge {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 10vh 5vw;
+  width: auto;
+}
+
+.column_travel {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row_travel:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pics img{
+  border-radius: 50px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+
+.form {
+  position: relative;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  margin: auto;
+}
+
+/* Three columns side by side */
+.column_about {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column_about {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container_about {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container_about::after, .row_about::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.h3 {
+  color: ##40d42c;
+}
+
+.title_about {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.fashion_row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.fashion_column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.fashion_column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .fashion_column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .fashion_column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.carousel {
+    background: #white;
+    margin-top: 20px;
+}
+.carousel_item {
+    text-align: center;
+    min-height: 280px;
+}
+
+.container_carousel {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 5vh 5vw;
+  width: auto;
+}
+
+.carousel_caption {
+  opacity:0;
+  transition:500ms ease-in-out;
+}
+
+.carousel_caption:hover .carousel_caption{
+  color: black;
+}
