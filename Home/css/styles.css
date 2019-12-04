@@ -260,3 +260,29 @@ p.tagline {
     max-width: 100%;
   }
 }
+
+.carousel {
+    background: #white;
+    margin-top: 20px;
+}
+.carousel_item {
+    text-align: center;
+    min-height: 280px;
+}
+
+.container_carousel {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 5vh 5vw;
+  width: auto;
+}
+
+.carousel_caption {
+  opacity:0;
+  transition:500ms ease-in-out;
+}
+
+.carousel_caption:hover .carousel_caption{
+  color: black;
+}
