@@ -42,7 +42,6 @@ a span.middle {
   top: 0;
   bottom: 0;
   background: rgb(62, 151, 240);
-  color: #ddd;
 }
 
 a span.tnb {
@@ -54,21 +53,53 @@ a span.tnb {
   top: 0;
   bottom: 0;
   background: rgb(62, 151, 240);
-  color: #ddd;
+}
+
+a span.globe {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  display: none;
+  color: red;
 }
 
 a:hover span {
   display:block ;
 }
 
+p.position_text{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+p.saveme {
+  font-size: 30px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
 p.footer {
   text-align: center;
+  font-size: 20px;
 }
 
 p.tagline {
   font-size: 50px;
   font-style: italic;
   text-align: center;
+  color: green;
 }
 
 /*Travel styles*/
