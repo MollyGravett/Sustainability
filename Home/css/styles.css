@@ -102,6 +102,42 @@ p.tagline {
   color: green;
 }
 
+/*navbar*/
+
+.navbar {
+  width: 100%;
+  background-color: #0fa33b;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #grey;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: ##40d42c;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
 /*Travel styles*/
 
 .travel_intro {
@@ -170,7 +206,7 @@ p.tagline {
 }
 
 /* Three columns side by side */
-.column {
+.column_about {
   float: left;
   width: 25%;
   margin-bottom: 16px;
@@ -179,7 +215,7 @@ p.tagline {
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
-  .column {
+  .column_about {
     width: 100%;
     display: block;
   }
@@ -191,12 +227,12 @@ p.tagline {
 }
 
 /* Some left and right padding inside the container */
-.container {
+.container_about {
   padding: 0 16px;
 }
 
 /* Clear floats */
-.container::after, .row::after {
+.container_about::after, .row_about::after {
   content: "";
   clear: both;
   display: table;
@@ -206,7 +242,7 @@ p.tagline {
   color: ##40d42c;
 }
 
-.title {
+.title_about {
   color: grey;
 }
 
@@ -224,4 +260,137 @@ p.tagline {
 
 .button:hover {
   background-color: #555;
+}
+
+.fashion_row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.fashion_column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.fashion_column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .fashion_column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .fashion_column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.carousel {
+    background: #white;
+    margin-top: 20px;
+}
+.carousel_item {
+    text-align: center;
+    min-height: 280px;
+}
+
+.container_carousel {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 5vh 5vw;
+  width: auto;
+}
+
+.carousel_caption {
+  opacity:0;
+  transition:500ms ease-in-out;
+}
+
+.carousel_caption:hover .carousel_caption{
+  color: black;
+}
+
+/*Health styles*/
+
+h3 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 4vh 4vw;
+    width: 90%;
+  }
+
+  p1 {
+      text-align: center;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      padding-left: 10px;
+      margin: 4vh 4vw;
+      width: 90%;
+    }
+
+
+/* Main container */
+.overlay-image {
+ position: relative;
+ width: 100%;
+}
+/* Original image */
+.overlay-image .image {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+/* Original text overlay */
+.overlay-image .text {
+ color: #fff;
+ font-size: 30px;
+ line-height: 1.5em;
+ text-shadow: 2px 2px 2px #000;
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 100%;
+}
+
+/********* Overlay on hover *******/
+/* New overlay on hover */
+.overlay-image .hover {
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+}
+/* New overlay appearance on hover */
+.overlay-image:hover .hover {
+ opacity: 1;
+}
+
+/********* Background and text only overlay on hover *******/
+.overlay-image .normal {
+ transition: .5s ease;
+}
+.overlay-image:hover .normal {
+ opacity: 0;
+}
+.overlay-image .hover {
+ background-color: rgba(0,0,0,0.5);
 }
