@@ -328,19 +328,21 @@ p.tagline {
 h3 {
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    color: white;
     padding-left: 10px;
     margin: 4vh 4vw;
     width: 90%;
   }
 
-  p3 {
-      text-align: center;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 16px;
-      padding-left: 10px;
-      margin: 4vh 4vw;
-      width: 90%;
+p3 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-left: 10px;
+    margin: 4vh 4vw;
+    width: 90%;
     }
 
 
