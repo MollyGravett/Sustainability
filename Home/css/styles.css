@@ -330,13 +330,3 @@ p.tagline {
   align-items: center;
   text-align: center;
 }
-
-h3 {
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  color: white;
-  padding-left: 10px;
-  margin: 4vh 4vw;
-  width: 90%;
-}
