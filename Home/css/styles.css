@@ -353,7 +353,7 @@ h3 {
 .overlay-image .image {
  display: block;
  width: 100%;
- height: auto;
+ height: 100%;
 }
 /* Original text overlay */
 .overlay-image .text {
