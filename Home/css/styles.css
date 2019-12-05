@@ -517,10 +517,10 @@ p.codefirst{
   margin: auto;
 }
 
-/* Three columns side by side */
+/* Five columns side by side */
 .column_about {
   float: left;
-  width: 25%;
+  width: 20%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -572,6 +572,16 @@ p.codefirst{
 
 .button:hover {
   background-color: #555;
+}
+
+/*Fashion styles */
+
+.fashion_intro {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 5vh 5vw;
+  width: auto;
 }
 
 .fashion_row {
